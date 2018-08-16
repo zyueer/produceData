@@ -1,0 +1,3 @@
+dubbo:
+  protocol: zookeeper
+  address: hadoop001:2181,hadoop002:2181,hadoop003:2181
