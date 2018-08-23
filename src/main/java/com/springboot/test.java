@@ -11,8 +11,9 @@ public class test {
         while (iterator.hasNext()) {
             Integer integer = iterator.next();
             System.out.println(integer);
-//            if (integer == 2)
-//                list.remove(integer);
+            if (integer == 2)
+                iterator.remove();
+                list.remove(integer);//java.util.ConcurrentModificationException
         }
     }
 }
